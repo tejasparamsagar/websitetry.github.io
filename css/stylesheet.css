@@ -1,0 +1,91 @@
+ * {
+ 	font-family: 'Baloo 2', cursive;
+ 	padding: 0px 0px;
+ 	margin: 0px;
+ }
+
+ body {
+ 	overflow: hidden;
+ 	background-attachment: fixed;
+ 	height: 100vh;
+ 	background-image: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
+ }
+
+ /*/// Navigation Bar ///*/
+
+nav {
+	font-size: 20px;
+	height: auto;
+	width: 100%;
+	background-color: transparent;
+}
+nav div {
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+nav div.logo {
+	color: white;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	padding: 20px 20px;
+	border: transparent;
+}
+nav div.link-list {
+	float: right;
+}
+nav div ul li {
+	padding: 20px 20px;
+	display: inline-block;
+}
+nav div.link-list ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav div.link-list li:hover {
+	transition: 0.5s ease;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+nav div.link-list li a:hover {
+	color: white;
+	transition: 0.5s ease;
+}
+
+/*/// Body ///*/
+
+div.title-text, div.title-image {
+	top: 20%;
+	left: 5%;
+	position: absolute;
+	display: inline-block;
+}
+div.title-text h1 {
+	display: block;
+	font-size: 90px;
+}
+div.title-text {
+	margin-top: 5%;
+}
+div.title-image {
+	margin-left: 51%;
+}
+img.title-image {
+	height: 400px;
+	width: auto;
+}
+p.description {
+	font-size: 30px;
+}
+a.button {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 25px;
+	border: transparent;
+	background-color: #f64f59;
+}
+a.button:hover {
+	background-color: black;
+	color: #f64f59;
+	transition: 0.5s ease;
+}
